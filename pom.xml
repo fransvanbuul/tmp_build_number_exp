@@ -71,8 +71,8 @@
                         </goals>
                         <configuration>
                             <name>current.time</name>
-                            <pattern>yyyyMMdd-HHmmss</pattern>
-                            <timeZone>GMT-5</timeZone>
+                            <pattern>d MMM yyyy HH:mm:ss Z</pattern>
+                            <timeZone>Europe/Amsterdam</timeZone>
                         </configuration>
                     </execution>
                 </executions>
