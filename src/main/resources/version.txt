@@ -1,4 +1,2 @@
-Version: ${project.version}
-Build number: ${buildNumber}
-#Build timestamp: ${timestamp}
-#Build git branch: ${SCMBranch}
+@project.name@ @project.version@
+Build @buildNumber@ @timestamp@ @SCMBranch@
