@@ -1,2 +1,4 @@
 @project.name@ @project.version@
-Build @buildNumber@ @timestamp@ @SCMBranch@
+build number: @buildNumber@
+build timestamp: @timestamp@
+build branch: @SCMBranch@
