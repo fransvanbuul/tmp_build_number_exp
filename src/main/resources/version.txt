@@ -1,4 +1,4 @@
 Version: ${project.version}
 Build number: ${buildNumber}
-Build timestamp: ${timestamp}
-Build git branch: ${SCMBranch}
+#Build timestamp: ${timestamp}
+#Build git branch: ${SCMBranch}
