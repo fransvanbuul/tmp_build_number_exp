@@ -61,6 +61,24 @@
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>1.9.1</version>
+                <executions>
+                    <execution>
+                        <id>timestamp-property</id>
+                        <goals>
+                            <goal>timestamp-property</goal>
+                        </goals>
+                        <configuration>
+                            <name>current.time</name>
+                            <pattern>yyyyMMdd-HHmmss</pattern>
+                            <timeZone>GMT-5</timeZone>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
                 <artifactId>buildnumber-maven-plugin</artifactId>
                 <version>1.4</version>
                 <executions>
@@ -76,7 +94,6 @@
                     <doCheck>true</doCheck>
                     <doUpdate>true</doUpdate>
                     <timestampFormat>{0,date,d MMM yyyy HH:mm:ss Z}</timestampFormat>
-                    <timezone>434</timezone> <!-- Europe/Amsterdam -->
                 </configuration>
             </plugin>
         </plugins>

@@ -1,4 +1,4 @@
 @project.name@ @project.version@
 build branch: @scmBranch@
 build number (git commit): @buildNumber@
-build timestamp: @timestamp@
+build timestamp: @current.time@
