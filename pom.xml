@@ -76,6 +76,7 @@
                     <doCheck>true</doCheck>
                     <doUpdate>true</doUpdate>
                     <timestampFormat>{0,date,d MMM yyyy HH:mm:ss z}</timestampFormat>
+                    <timezone>Europe/Amsterdam</timezone>
                 </configuration>
             </plugin>
         </plugins>
